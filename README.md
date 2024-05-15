@@ -3,11 +3,11 @@
 
 # Tạo fan bằng công tắc 4 kênh
 - sau khi mua công tắc về add home assistant rồi sửa ID thực thể cho các kênh tương ứng với các số như sau
-  + kênh s1 - số 1: switch.hk_q1_so1
-  + kênh s2 - số 2: switch.hk_q1_so2
-  + kênh s3 - số 3: switch.hk_q1_so1
-  + kênh s4 - đảo gió: switch.hk_q1_dao
- - các kênh trên đấu vào dây quạt số tương ứng các chức năng của quạt số
+  + kênh s1 (L1) - số 1: switch.hk_q1_so1
+  + kênh s2 (L2) - số 2: switch.hk_q1_so2
+  + kênh s3 (L3) - số 3: switch.hk_q1_so1
+  + kênh s4 (L4) - đảo gió: switch.hk_q1_dao
+ - các kênh trên đấu vào dây quạt số tương ứng các chức năng của quạt số. dây trung tính nối chung nhau
  - 
 ![z5441476053283_8b347e967f981eb28c83e233faa5fbb5](https://github.com/LongNHxx/Fan/assets/102561460/2e16ac55-ad86-47c0-a4a5-dfae62d2ad85)
 ![z5441476068096_5a5b2d68c2c476aeecf16990ccd272c8](https://github.com/LongNHxx/Fan/assets/102561460/55e5f7e0-89f6-4e7d-ad01-7024032ef191)
