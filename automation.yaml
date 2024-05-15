@@ -1,0 +1,26 @@
+# vào thiết lập -> tự động hóa -> tạo tự động hóa mới -> dấu 3 chấm -> soạn thảo dưới dạng yaml rồi copy code này
+# code này có tác dụng khi bật 1 số sẽ tắt các số còn lại, không cho phép bật đồng thời 2 số 1 lúc. nếu công tắc bạn có chức năng interlock thì bỏ qua bước này
+alias: Sync quạt 1
+description: |+
+
+trigger:
+  - platform: state
+    entity_id:
+      - switch.hk_q1_so1
+      - switch.hk_q1_so2
+      - switch.hk_q1_so3
+condition: []
+action:
+  - service: switch.turn_off
+    data_template:
+      entity_id: |
+        {% if trigger.to_state.state == 'on' %}
+                 {% if trigger.entity_id == 'switch.hk_q1_so1' %}
+                   switch.hk_q1_so2, switch.hk_q1_so3
+                 {% elif trigger.entity_id == 'switch.hk_q1_so2' %}
+                   switch.hk_q1_so1, switch.hk_q1_so3
+                 {% else %}
+                   switch.hk_q1_so1, switch.hk_q1_so2
+                 {% endif %}
+               {% endif %}
+mode: single
