@@ -16,8 +16,10 @@
 # B2: Thêm đoạn code này vào configuration.yaml https://github.com/LongNHxx/Fan/blob/main/configuration.yaml
 
 # B3: Tạo automation rồi soạn thảo bằng yaml thêm đoạn code này https://github.com/LongNHxx/Fan/blob/main/automation.yaml
+![z5441555642285_c1fca3d4ad105a29df5d3c7fbb38db06](https://github.com/LongNHxx/Fan/assets/102561460/a95de82f-5f6d-443e-be64-9cc879b125bb)
 
 ok, xong vào khởi động lại homeassistant rồi vào thiết bị -> thực thể tìm fan.hk_fan1
+![z5441555636475_de936850db7909f69b5740db08ce060f](https://github.com/LongNHxx/Fan/assets/102561460/47bc17f1-73ac-420a-b657-5413804e1a0b)
 
 # Thành quả
 ![z5441476067072_96fd9676abecfce16c229f43b9fe41ce](https://github.com/LongNHxx/Fan/assets/102561460/a8c889ea-6f09-4e44-8f62-0eb1839447dd)
