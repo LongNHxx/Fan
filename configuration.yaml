@@ -1,5 +1,5 @@
 #quạt 1 (thay thế switch.hk_q1_so1, switch.hk_q1_so2, switch.hk_q1_so3, switch.hk_q1_dao tương ứng với địa chỉ công tắc mà bạn đã add vào home assistant)
-# nếu bạn đổi địa chỉ công tắc giống tôi thì bỏ qua và copy thẳng code này là được
+# nếu bạn đổi địa chỉ công tắc giống tôi ở B1 thì bỏ qua và copy thẳng code này là được
 fan:
   - platform: template
     fans:
